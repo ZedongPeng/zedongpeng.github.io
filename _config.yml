@@ -16,7 +16,7 @@ description              : "Zedong's personal blog to record and share ideas."
 url                      : "http://zedong.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ZedongPeng/zedongpeng" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -81,23 +81,23 @@ analytics:
 author:
   name             : "Zdong Peng"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "P.h.d in Optimization."
   location         : "Hangzhou, China"
-  email            :
-  uri              :
-  bitbucket        :
+  email            : "peng_zedong@126.com"
+  uri              : "http://zedong.me"
+  bitbucket        : 
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/ZedongPeng"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "E6%B3%BD%E6%A0%8B-%E5%BD%AD-1a97b0118" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -244,6 +244,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
