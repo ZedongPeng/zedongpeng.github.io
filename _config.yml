@@ -9,7 +9,7 @@ minimal_mistakes_skin    :  "air" #"contrast" #  "default" # "air", "contrast", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zedong's Blog" # | Optimization & Deep Learning
+title                    : #"Zedong's Blog" # | Optimization & Deep Learning
 title_separator          : "-"
 name                     : "Zedong Peng"
 description              : "Zedong's personal blog to record and share ideas."
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Zedong Peng"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "P.h.d in Optimization."
+  bio              : "Ph.D Candidate in Optimization."
   location         : "Hangzhou, China"
   email            : "peng_zedong@126.com"
   uri              : "http://zedong.me"
