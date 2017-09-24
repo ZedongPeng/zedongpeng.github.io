@@ -9,7 +9,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your
 [![Minimal Mistakes live preview][2]][1]
 
 [1]: https://mmistakes.github.io/minimal-mistakes/
-[2]: screenshot.png (live preview)
+[2]: screenshot.png "live preview"
 
 ![layout examples](screenshot-layouts.png)
 
@@ -30,25 +30,25 @@ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your
 
 This theme comes in seven different skins (including the default one).
 
-| `air` | `contrast` | `dark` |
-| --- | --- | --- |
+| `air`                                    | `contrast`                               | `dark`                                   |
+| ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | ![air skin](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png) | ![contrast skin](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png) | ![dark skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png) |
 
-| `dirt` | `mint` | `sunrise` |
-| --- | --- | --- |
+| `dirt`                                   | `mint`                                   | `sunrise`                                |
+| ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | ![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png) | ![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png) | ![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png) |
 
 ## Demo Pages
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
+| Name                                     | Description                              |
+| ---------------------------------------- | ---------------------------------------- |
+| [Post with Header Image][header-image-post] | A post with a large header image.        |
 | [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+| [Syntax Highlighting Post][syntax-post]  | Post displaying highlighted code.        |
+| [Post with a Gallery][gallery-post]      | A post showing several images wrapped in `<figure>` elements. |
+| [Sample Collection Page][sample-collection] | Single page from a collection.           |
+| [Categories Archive][categories-archive] | Posts grouped by category.               |
+| [Tags Archive][tags-archive]             | Posts grouped by tag.                    |
 
 Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
 
@@ -169,3 +169,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+All.
