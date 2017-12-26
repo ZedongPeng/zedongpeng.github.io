@@ -1,3 +1,0 @@
-#First Blog Test
-
-Welcome!
