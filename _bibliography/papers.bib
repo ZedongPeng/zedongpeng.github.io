@@ -1,115 +1,175 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{lu2024mpax,
+  abbr={arXiv},
+  title={MPAX: Mathematical programming in JAX},
+  author={Lu, Haihao and Peng, Zedong and Yang, Jinwen},
+  abstract={This paper presents MPAX (Mathematical Programming in JAX), a versatile and efficient toolbox for integrating linear programming (LP) into machine learning workflows. MPAX implemented the state-of-the-art first-order methods, restarted average primal-dual hybrid gradient and reflected restarted Halpern primal-dual hybrid gradient, to solve LPs in JAX. This provides native support for hardware accelerations along with features like batch solving, auto-differentiation, and device parallelism. Extensive numerical experiments demonstrate the advantages of MPAX over existing solvers. The solver is available at https://github.com/MIT-Lu-Lab/MPAX.},
+  journal={arXiv preprint arXiv:2412.09734},
+  year={2024},
   selected={true},
-  inspirehep_id = {3255}
+  html={https://arxiv.org/abs/2412.09734},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
+
+@article{lu2025cupdlpx,
+  abbr={arXiv},
+  title={cuPDLPx: A Further Enhanced GPU-Based First-Order Solver for Linear Programming},
+  author={Lu, Haihao and Peng, Zedong and Yang, Jinwen},
+  abstract={We introduce cuPDLPx, a further enhanced GPU-based first-order solver for linear programming. Building on the recently developed restarted Halpern PDHG for LP, cuPDLPx incorporates a number of new techniques, including a new restart criterion and a PID-controlled primal weight update. These improvements are carefully tailored for GPU architectures and deliver substantial computational gains. Across benchmark datasets, cuPDLPx achieves 2.5x-5x speedups on MIPLIB LP relaxations and 3x-6.8x on Mittelmann's benchmark set, with particularly strong improvements in high-accuracy and presolve-enabled settings. The solver is publicly available at https://github.com/MIT-Lu-Lab/cuPDLPx.},
+  journal={arXiv preprint arXiv:2507.14051},
+  year={2025},
+  selected={true},
+  html={https://arxiv.org/abs/2507.14051},
+  github={https://github.com/MIT-Lu-Lab/cuPDLPx}
+}
+
+
+@article{peng2025hybrid,
+  abbr={arXiv},
+  title={Hybrid Quantum Branch-and-Bound Method for Quadratic Unconstrained Binary Optimization},
+  author={Peng, Zedong and de Roux, Daniel and Neira, David E Bernal},
+  abstract={Quantum algorithms have shown promise in solving Quadratic Unconstrained Binary Optimization (QUBO) problems, benefiting from their connection to the transverse field Ising model. Various Ising solvers, both classical and quantum, have emerged to tackle such problems efficiently but lack global optimality guarantees and often suffer from hardware limitations such as limited qubit availability. In this work, we propose a hybrid branch-and-bound (B&B) framework that integrates Ising solvers as heuristics within a classical B&B algorithm. Unlike prior theoretical studies, our work presents a practical implementation, available as open-source on GitHub. We explore when and where to apply Ising solvers in the search tree and introduce a custom branching rule optimized QUBO embedding. Our method is evaluated on hundreds of QUBO instances from QUBOLib.jl using Gurobi and the D-Wave quantum annealer. Our results show up to 11% less solution time and 17% fewer nodes compared to default Gurobi, an off-the-shelf commercial optimization solver. These findings demonstrate the value of hybrid quantum-classical strategies for enhancing exact optimization.},
+  journal={arXiv preprint arXiv:2509.11040},
+  year={2025},
+  selected={true},
+  html={https://arxiv.org/abs/2509.11040}
+}
+
+@incollection{peng2024convexication,
+  abbr={Preprint},
+  title={Enhanced Outer-Approximation Methods for MINLP via Presolve Convexification and Bound Tightening},
+  author={Peng, Zedong and Cao, Kaiyu and Furman, Kevin C and Li, Can and Grossmann, Ignacio E and Neira, David E Bernal},
+  abstract={Advancements in convexification and domain reduction techniques have significantly enhanced the performance of global optimization solvers for challenging Mixed-Integer Nonlinear Programming (MINLP) problems. However, the great potential of these techniques has not yet been fully harnessed in decomposition-based MINLP solvers. Motivated by this consideration, we present an improved Outer-Approximation (OA) method by integrating convexification and bound tightening techniques. To effectively solve convex MINLP problems, both multi-tree and single-tree (i.e., known as the LP/NLP Branch-and-Bound (B&B) method) settings of the OA method are investigated. Moreover, the advanced global OA and global LP/NLP B&B methods are extended to include these techniques for non-convex MINLP problems. These new methods have been developed and incorporated into the open-source Mixed-Integer Nonlinear Decomposition Toolbox for Pyomo-MindtPy. Extensive computational experiments were conducted using the MINLP benchmark library MINLPLib to validate the effectiveness and reliability of the developed methods. The results show that incorporating the convexification and bound tightening techniques into the (global) OA and (global) LP/NLP B&B methods significantly reduces the computational time and the number of iterations required for the solution.},
+  year={2024},
+  selected={true},
+  html={https://egon.cheme.cmu.edu/Papers/Peng_MINLP_COA%20-%20IJoC.pdf},
+}
+
+
+@article{bernal2022alternative,
+  abbr={JoGO},
+  title={Alternative regularizations for Outer-Approximation algorithms for convex MINLP},
+  author={Bernal, David E and Peng, Zedong and Kronqvist, Jan and Grossmann, Ignacio E},
+  abstract={In this work, we extend the regularization framework from Kronqvist et al. (Math Program 180(1):285–310, 2020) by incorporating several new regularization functions and develop a regularized single-tree search method for solving convex mixed-integer nonlinear programming (MINLP) problems. We propose a set of regularization functions based on distance metrics and Lagrangean approximations, used in the projection problem for finding new integer combinations to be used within the Outer-Approximation (OA) method. The new approach, called Regularized Outer-Approximation (ROA), has been implemented as part of the open-source Mixed-integer nonlinear decomposition toolbox for Pyomo—MindtPy. We compare the OA method with seven regularization function alternatives for ROA. Moreover, we extend the LP/NLP Branch and Bound method proposed by Quesada and Grossmann (Comput Chem Eng 16(10–11):937–947, 1992) to include regularization in an algorithm denoted RLP/NLP. We provide convergence guarantees for both ROA and RLP/NLP. Finally, we perform an extensive computational experiment considering all convex MINLP problems in the benchmark library MINLPLib. The computational results show clear advantages of using regularization combined with the OA method.},
+  journal={Journal of Global Optimization},
+  volume={84},
+  number={4},
+  pages={807--842},
+  year={2022},
+  publisher={Springer},
+  selected={true},
+  url={https://link.springer.com/article/10.1007/s10898-022-01178-4},
+  html={https://link.springer.com/article/10.1007/s10898-022-01178-4},
+}
+
+
+@article{wang2024measure,
+  abbr={CCE},
+  title={Measure this, not that: Optimizing the cost and model-based information content of measurements},
+  author={Wang, Jialu and Peng, Zedong and Hughes, Ryan and Bhattacharyya, Debangsu and Neira, David E Bernal and Dowling, Alexander W},
+  abstract={Model-based design of experiments (MBDoE) is a powerful framework for selecting and calibrating science-based mathematical models from data. This work extends popular MBDoE workflows by proposing a convex mixed integer (non)linear programming (MINLP) problem to optimize the selection of measurements. The solver MindtPy is modified to support calculating the D-optimality objective and its gradient via an external package, SciPy, using the grey-box module in Pyomo. The new approach is demonstrated in two case studies: estimating highly correlated kinetics from a batch reactor and estimating transport parameters in a large-scale rotary packed bed for CO capture. Both case studies show how examining the Pareto-optimal trade-offs between information content measured by A- and D-optimality versus measurement budget offers practical guidance for selecting measurements for scientific experiments.},
+  journal={Computers \& Chemical Engineering},
+  volume={189},
+  pages={108786},
+  year={2024},
+  publisher={Pergamon},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0098135424002047},
+}
+
+@article{dupont2025benchmarking,
+  abbr={PhysRev},
+  title={Benchmarking quantum optimization for the maximum-cut problem on a superconducting quantum computer},
+  author={Dupont, Maxime and Sundar, Bhuvanesh and Evert, Bram and Neira, David E Bernal and Peng, Zedong and Jeffrey, Stephen and Hodson, Mark J},
+  abstract={Achieving high-quality solutions faster than classical solvers on computationally hard problems is a challenge for quantum optimization to deliver utility. Using a superconducting quantum computer, we experimentally investigate the performance of a hybrid quantum-classical algorithm inspired by semidefinite programming approaches for solving the maximum-cut problem on 3-regular graphs up to several thousand variables. We leverage the structure of the input problems to address sizes beyond what current quantum machines can naively handle. We attain an average approximation ratio of 99% over a random ensemble of thousands of problem instances. We benchmark the quantum solver against similarly high-performing classical heuristics, including the gurobi optimizer, simulated annealing, and the Burer-Monteiro algorithm. A run-time analysis shows that the quantum solver on large-scale problems is competitive against gurobi but short of others on a projected 100-qubit quantum computer. We explore multiple leads to close the gap and discuss prospects for a practical quantum speedup.},
+  journal={Physical Review Applied},
+  volume={23},
+  number={1},
+  pages={014045},
+  year={2025},
+  publisher={American Physical Society},
+  selected={true},
+  html={https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.23.014045},
+}
+
+@inproceedings{peng2024addressing,
+  abbr={CDC},
+  title={Addressing Discrete Dynamic Optimization via a Logic-Based Discrete-Steepest Descent Algorithm},
+  author={Peng, Zedong and Lee, Albert and Neira, David E Bernal},
+  abstract={Dynamic optimization problems involving discrete decisions have several applications, yet lead to challenging optimization problems that must be addressed efficiently. Combining discrete variables with potentially nonlinear constraints stemming from dynamics within an optimization model results in mathematical programs for which off-the-shelf techniques might be insufficient. This work uses a novel approach, the Logic-based Discrete-Steepest Descent Algorithm (LD-SDA), to solve Discrete Dynamic Optimization problems. The problems are formulated using Boolean variables that enforce differential systems of constraints and encode logic constraints that the optimization problem needs to satisfy. By posing the problem as a generalized disjunctive program with dynamic equations within the disjunctions, the LD-SDA takes advantage of the problem’s inherent structure to efficiently explore the combinatorial space of the Boolean variables and selectively include relevant differential equations to mitigate the computational complexity inherent in dynamic optimization scenarios. We rigorously evaluate the LD-SDA with benchmark problems from the literature that include dynamic transitioning modes and find it to outperform traditional methods, i.e., mixed-integer nonlinear and generalized disjunctive programming solvers, in terms of efficiency and capability to handle dynamic scenarios. This work presents a systematic method and provides an open-source software implementation to address these discrete dynamic optimization problems by harnessing the information within its logical-differential structure.},
+  booktitle={2024 IEEE 63rd Conference on Decision and Control (CDC)},
+  pages={1664--1669},
+  year={2024},
+  html={https://ieeexplore.ieee.org/abstract/document/10886477},
+}
+
+@article{de2025spectral,
+  abbr={arXiv},
+  title={Spectral Outer-Approximation Algorithms for Binary Semidefinite Problems},
+  author={de Roux, Daniel and Peng, Zedong and Neira, David E Bernal},
+  abstract={Integer semidefinite programming (ISDP) has recently gained attention due to its connection to binary quadratically constrained quadratic programs (BQCQPs), which can be exactly reformulated as binary semidefinite programs (BSDPs). However, it remains unclear whether this reformulation effectively uses existing ISDP solvers to address BQCQPs. To the best of our knowledge, no specialized ISDP algorithms exploit the unique structure of BSDPs derived from BQCQPs. This paper proposes a novel spectral outer approximation algorithm tailored for BSDPs derived from BQCQP reformulations. Our approach is inspired by polyhedral and second-order representable regions that outer approximate the feasible set of a semidefinite program relying on a spectral decomposition of a matrix that simultaneously diagonalizes the objective matrix and an aggregation of the constraint matrices. Computational experiments show that our algorithm is competitive with, and in some cases outperforms, state-of-the-art ISDP solvers such as SCIP-SDP and PAJARITO, highlighting ISDP's potential for solving BQCQPs.},
+  journal={arXiv preprint arXiv:2506.18265},
+  year={2025},
+  selected={true},
+  html={https://arxiv.org/abs/2506.18265},
+}
+
+
+@article{peng2022shale,
+  abbr={AIChE J.},
+  title={Shale gas field development planning under production profile uncertainty},
+  author={Peng, Zedong and Li, Can and Grossmann, Ignacio E and Kwon, Kysang and Ko, Sukjoon and Shin, Joohyun and Feng, Yiping},
+  abstract={In shale gas field development, the major endogenous uncertainty comes from the production profile of candidate wells and its realization is dependent on the development decision. In this work, we apply multistage stochastic programming to address the shale gas field development planning problem under production profile uncertainty. Business realities such as budget limit and uncertainty resolution delay are also considered in the proposed model. To solve the multistage stochastic model, a Lagrangean decomposition method and a heuristic method are proposed. Computational results demonstrate the efficiency of the proposed methods on examples that are otherwise intractable. The optimal development strategy from the proposed model is analyzed under different levels of uncertainties. Different cases are further tested to figure out the impact of budget and resolution delay on development decisions.},
+  journal={AIChE Journal},
+  volume={68},
+  number={1},
+  pages={e17439},
+  year={2022},
+  publisher={Wiley Online Library},
+  selected={true},
+  html={https://aiche.onlinelibrary.wiley.com/doi/full/10.1002/aic.17439},
+}
+
+
+
+@article{peng2021multi,
+  abbr={AIChE J.},
+  title={Multi-period design and planning model of shale gas field development},
+  author={Peng, Zedong and Li, Can and Grossmann, Ignacio E and Kwon, Kysang and Ko, Sukjoon and Shin, Joohyun and Feng, Yiping},
+  abstract={Long‐term design and planning of shale gas field development is challenging due to the complex development operations and a wide range of candidate locations. In this work, we focus on the multi‐period shale gas field development problem, where the shale gas field has multiple formations and each well can be developed from one of several alternative pads. The decisions in this problem involve the design of the shale gas network and the planning of development operations. A mixed‐integer linear programming (MILP) model is proposed to address this problem. Since the proposed model is a large‐scale MILP, we propose a solution pool‐based bilevel decomposition algorithm to solve it. Results on realistic instances demonstrate the value of the proposed model and the effectiveness of the proposed algorithm.},
+  journal={AIChE Journal},
+  volume={67},
   number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+  pages={e17195},
+  year={2021},
+  publisher={Wiley Online Library},
+  selected={true},
+  url={https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.17195},
+  html={https://aiche.onlinelibrary.wiley.com/doi/10.1002/aic.17195},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{peng2019deep,
+  abbr={CAC},
+  title={Deep reinforcement learning approach for capacitated supply chain optimization under demand uncertainty},
+  author={Peng, Zedong and Zhang, Yi and Feng, Yiping and Zhang, Tuchao and Wu, Zhengguang and Su, Hongye},
+  abstract={With the global trade competition becoming further intensified, Supply Chain Management (SCM) technology has become critical to maintain competitive advantages for enterprises. However, the economic integration and increased market uncertainty have brought great challenges to SCM. In this paper, two Deep Reinforcement Learning (DRL) based methods are proposed to solve multi-period capacitated supply chain optimization problem under demand uncertainty. The capacity constraints are satisfied from both modelling perspective and DRL algorithm perspective. Both continuous action space and discrete action space are considered. The performance of the methods is analyzed through the simulation of three different cases. Compared to the baseline of (r, Q) policy, the proposed methods show promising results for the supply chain optimization problem.},
+  booktitle={2019 Chinese automation congress (CAC)},
+  pages={3512--3517},
+  year={2019},
+  organization={IEEE}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{peng2019progressive,
+  abbr={I\&ECR},
+  title={A progressive hedging-based solution approach for integrated planning and scheduling problems under demand uncertainty},
+  author={Peng, Zedong and Zhang, Yi and Feng, Yiping and Rong, Gang and Su, Hongye},
+  abstract={Progressive hedging (PH) is a classical decomposition algorithm for solving multistage stochastic problems. However, due to the exponentially growing model size of real-world enterprise-wide optimization problems, critical issues arise when implementing PH in practice. In this work, we propose a novel PH-based algorithm to address integrated planning and scheduling problems under demand uncertainty in a general mathematical formulation. Strategies are proposed to accelerate and guarantee the convergence of the algorithm. Through application of the enhanced PH to solve variants of a typical state–task network example and a real-world ethylene plant case, computational results demonstrate that the proposed algorithm outperforms directly invoking commercial solvers and gets a better solution within nearly two-thirds of the direct solution time on a serial computer. The advantage of the multistage stochastic programming method is also demonstrated by comparing the model solution with the counterparts of an expected value-based deterministic model and a two-stage stochastic model.},
+  journal={Industrial \& Engineering Chemistry Research},
+  volume={58},
+  number={32},
+  pages={14880--14896},
+  year={2019},
+  publisher={ACS Publications},
+  html={https://pubs.acs.org/doi/10.1021/acs.iecr.9b02620},
 }
