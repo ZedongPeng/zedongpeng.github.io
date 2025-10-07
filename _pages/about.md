@@ -27,32 +27,32 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral associate at MIT Sloan School of Management, working with [Prof. Haihao Lu](https://mitsloan.mit.edu/faculty/directory/haihao-lu). Previously, I was a postdoctoral associate at Purdue University with [Prof. David E. Bernal Neira](https://secquoia.github.io/1-bernalde.html). I received my Ph.D. degree from Zhejiang University and, during this period, spent one year as a visiting scholar in [Prof. Ignacio E. Grossmann](https://engineering.cmu.edu/directory/bios/grossmann-ignacio.html)’s group at Carnegie Mellon University. After graduation, I worked for two years in industry at [JD.com](https://corporate.jd.com/home) as a Doctoral Management Trainee before transitioning to academia.
+I am a **postdoctoral associate** at **MIT Sloan School of Management**, working with [Prof. Haihao Lu](https://mitsloan.mit.edu/faculty/directory/haihao-lu). Previously, I was a postdoctoral associate at Purdue University with [Prof. David E. Bernal Neira](https://secquoia.github.io/1-bernalde.html). I received my Ph.D. degree from Zhejiang University and, during this period, spent one year as a visiting scholar in [Prof. Ignacio E. Grossmann](https://engineering.cmu.edu/directory/bios/grossmann-ignacio.html)’s group at Carnegie Mellon University. After graduation, I worked for two years in industry at [JD.com](https://corporate.jd.com/home) as a Doctoral Management Trainee before transitioning to academia.
 
-My current research focuses on developing scalable and efficient computational approaches to enhance decision-making in complex systems, including
-- Hardware-accelerated optimization algorithm design and implementation.
-- Algorithms for Mixed-Integer Nonlinear Programming.
-- Applications in finance, process and energy systems.
-
+My current research focuses on developing **scalable and efficient computational approaches to enhance decision-making in complex systems**, including
+- GPU-accelerated algorithm design and implementation for Linear Programming.
+- Algorithm design and implementation for Mixed-Integer Nonlinear Programming.
+- Applications in online advertising, supply chain, finance and energy systems.
 
 <h3>
-  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications and Preprints</a>
 </h3>
 {% include selected_papers.liquid %}
 
 
 
 ### Software
-I am a strong advocate of open-source and high-performance optimization tools. I have developed and maintain several widely used solvers and libraries, including:
+I am a strong advocate of **open-source and high-performance optimization tools**. I have developed and maintain several widely used solvers and libraries, including:
 - [MPAX: Mathematical Programming in JAX](https://github.com/MIT-Lu-Lab/MPAX/)
 - [cuPDLPx: A GPU-Accelerated First-Order LP Solver](https://github.com/MIT-Lu-Lab/cuPDLPx)
 - [MindtPy: The Mixed-Integer Nonlinear Decomposition Toolbox in Pyomo](https://pyomo.readthedocs.io/en/stable/explanation/solvers/mindtpy.html)
 
 ### Teaching Experience
 
-- TA, 15.071. The Analytics Edge, MIT, Fall 2025
-- TA, Operations Research, Zhejiang University, Fall 2016
-- TA, Data Mining and Data Fusion, Zhejiang University, Winter 2016
+- TA, 15.071. **The Analytics Edge** (MBA), MIT, Fall 2025
+- TA, **Data Mining and Data Fusion** (Graduate), Zhejiang University, Winter 2016
+- TA, **Operations Research** (Graduate), Zhejiang University, Fall 2016
+
 
 <!-- . My work integrates a broad range of methodologies, including mathematical modeling, algorithm design, uncertainty quantification, and hardware-accelerated solver implementation, with a strong emphasis on open-source and high-performance tools. -->
 
