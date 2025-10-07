@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-github",
-          title: "github",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/https:/github.com/ZedongPeng";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
